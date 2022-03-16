@@ -12,27 +12,30 @@ html
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    max-width: 360px;
+    min-height: 90vh;
+    max-width: 375px;
 }    
 .card
 {
     background-color: hsl(216, 50%, 16%);    
     border-radius: 15px;
     padding: 15px 0px 0px 15px;
+    box-shadow: 30px 30px 100px black;
     margin: auto;
 
 }
 .nft
 {
     border-radius: 15px;
-    width: 330px;
+    width: 90%;
     height: auto;
-    margin: auto;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
 }
 .text
 {
-
+    margin-left: 15px;
     font-family: 'Outfit', sans-serif;
     color: white;
     text-align: left;
@@ -44,9 +47,11 @@ html
 }
 .nft-description
 {
+    font-size: 18px;
     padding-right: 10px;
     color: hsl(215, 51%, 70%);
     font-weight: 300;
+    margin-right: 30px;
 }
 .eth
 {
@@ -58,13 +63,13 @@ html
 {
     color:hsl(178, 100%, 50%);
     display: inline-block;
-    margin-right: 145px;
+    margin-right: 130px;
 }
 .clock
 {
     display: inline-block;
-    margin:auto;
-    padding-bottom: 5px;
+    
+    padding-bottom: 3px;
     vertical-align: middle;
 }
 .nft-days
@@ -75,11 +80,11 @@ html
 }
 .divider
 {
-    margin: 0px -5px 0px 0px;
+    margin: 10px -10px 10px 0px;
     background-color:  hsl(215, 32%, 27%);
     height: 1px;
     border: none;
-    width: 95%;
+    width: 93%;
     
 }
 .avatar
@@ -106,7 +111,7 @@ html
 .attribution 
 {
     color: hsl(0, 0%, 100%);
-    font-size: 11px; 
+    font-size: 12px; 
     text-align: center;
 }
 .attribution a 
