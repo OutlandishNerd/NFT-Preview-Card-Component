@@ -48,20 +48,39 @@ html
     color: hsl(215, 51%, 70%);
     font-weight: 300;
 }
+.eth
+{
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
 .nft-cost
 {
     color:hsl(178, 100%, 50%);
+    display: inline-block;
+    margin-right: 145px;
+}
+.clock
+{
+    display: inline-block;
+    margin:auto;
+    padding-bottom: 5px;
+    vertical-align: middle;
 }
 .nft-days
 {
+    display: inline-block; 
+    text-align: right;
     color: hsl(215, 51%, 70%);
 }
-
 .divider
 {
+    margin: 0px -5px 0px 0px;
     background-color:  hsl(215, 32%, 27%);
     height: 1px;
     border: none;
+    width: 95%;
+    
 }
 .avatar
 {
@@ -70,13 +89,18 @@ html
     border: 1px solid;
     border-radius: 25px;
     border-color: hsl(0, 0%, 100%);
+    vertical-align: middle;
 }
 .nft-creator
 {
+    display: inline-block;
     color: hsl(215, 51%, 70%);
+    padding-left: 10px;
+    padding-bottom: 20px;
 }
 .name
 {
+    font-weight: 300;
     color: hsl(0, 0%, 100%) !important;
 }
 .attribution 
