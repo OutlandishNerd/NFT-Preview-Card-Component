@@ -4,95 +4,111 @@ html
 {
     background-color: hsl(217, 54%, 11%);
 }
+body
+{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: auto;
+}
 .container
 {
-    
-    display: flex;
-    margin: 0 auto;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 90vh;
-    max-width: 375px;
-}    
+    max-width: 23.438rem;
+}
 .card
 {
-    background-color: hsl(216, 50%, 16%);    
-    border-radius: 15px;
-    padding: 15px 0px 0px 15px;
-    box-shadow: 10px 10px 100px black;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: .938rem;
+    padding: .938rem 0rem 0rem .938rem;
+    box-shadow: .625rem .625rem 6.25rem black;
     margin: auto;
-
 }
+
 .nft
 {
-    border-radius: 15px;
+    border-radius: .938rem;
     width: 90%;
     height: auto;
-    margin-top: 5px;
-    margin-left: 10px;
-    margin-right: 5px;
+    margin-top: .313rem;
+    margin-left: .625rem;
+    margin-right: .313rem;
+    z-index: 1;
 }
+.nft-swap
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+
 .text
 {
-    margin-left: 15px;
+    margin-left: .938rem;
     font-family: 'Outfit', sans-serif;
     color: white;
     text-align: left;
 }
 .nft-title
 {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
+}
+.nft-title:hover
+{
+    color:hsl(178, 100%, 50%);
 }
 .nft-description
 {
-    font-size: 18px;
-    padding-right: 10px;
+    font-size: 1.125rem;
+    padding-right: .625rem;
     color: hsl(215, 51%, 70%);
     font-weight: 300;
-    margin-right: 30px;
+    margin-right: 1.875rem;
 }
 .eth
 {
     display: inline-block;
     vertical-align: middle;
-    padding-bottom: 5px;
+    padding-bottom: .313rem;
 }
 .nft-cost
 {
     color:hsl(178, 100%, 50%);
     display: inline-block;
-    margin-right: 130px;
+    margin-right: 8.125rem;
 }
 .clock
 {
     display: inline-block;
-    
-    padding-bottom: 3px;
+
+    padding-bottom: 0.1875rem;
     vertical-align: middle;
 }
 .nft-days
 {
-    display: inline-block; 
+    display: inline-block;
     text-align: right;
     color: hsl(215, 51%, 70%);
 }
 .divider
 {
-    margin: 10px -10px 10px 0px;
+    margin: 0.625rem -0.625rem 0.625rem 0rem;
     background-color:  hsl(215, 32%, 27%);
-    height: 1px;
+    height: .0625rem;
     border: none;
     width: 93%;
-    
+
 }
 .avatar
 {
     margin: auto;
-    width: 35px;
+    width: 2.1875rem;
     border: 1px solid;
-    border-radius: 25px;
+    border-radius: 1.5625rem;
     border-color: hsl(0, 0%, 100%);
     vertical-align: middle;
 }
@@ -100,21 +116,26 @@ html
 {
     display: inline-block;
     color: hsl(215, 51%, 70%);
-    padding-left: 10px;
-    padding-bottom: 20px;
+    padding-left: .625rem;
+    padding-bottom: 1.25rem;
 }
 .name
 {
     font-weight: 300;
-    color: hsl(0, 0%, 100%) !important;
-}
-.attribution 
-{
     color: hsl(0, 0%, 100%);
-    font-size: 12px; 
+}
+.name:hover
+{
+  color: hsl(178, 100%, 50%);
+}
+.attribution
+{
+    padding-top: 4rem;
+    color: hsl(0, 0%, 100%);
+    font-size: .75rem;
     text-align: center;
 }
-.attribution a 
-{ 
-    color: hsl(228, 45%, 44%); 
+.attribution a
+{
+    color: hsl(228, 45%, 44%);
 }
