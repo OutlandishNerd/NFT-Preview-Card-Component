@@ -6,12 +6,11 @@ html
 }
 body
 {
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: auto;
 }
 .container
 {
@@ -36,14 +35,41 @@ body
     margin-right: .313rem;
     z-index: 1;
 }
-.nft-swap
-{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 2;
-}
 
+.imgcontainer
+{
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    height: auto;
+    width: auto;
+
+}
+.imgcontainer img
+{
+    opacity: 0;
+}
+.imgcontainer:hover img
+{
+   
+    opacity: 1;
+}
+.color
+{
+    position: absolute;
+    top: -8.35rem;
+    left: -8.6rem;
+    height: 20.3rem;
+    width: 20.3rem;
+    border-radius: .938rem;
+}
+.color:hover
+{
+    background-color:hsl(178, 100%, 50%);
+    opacity: .2;
+}
 
 .text
 {
